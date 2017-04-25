@@ -1,6 +1,6 @@
 # npmtest-requestretry
 
-#### test coverage for  [requestretry (v1.12.0)](https://github.com/FGRibreau/node-request-retry#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-requestretry.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-requestretry) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-requestretry.svg)](https://travis-ci.org/npmtest/node-npmtest-requestretry)
+#### basic test coverage for  [requestretry (v1.12.0)](https://github.com/FGRibreau/node-request-retry#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-requestretry.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-requestretry) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-requestretry.svg)](https://travis-ci.org/npmtest/node-npmtest-requestretry)
 
 #### request-retry wrap nodejs request to retry http(s) requests in case of error
 
@@ -10,7 +10,7 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-requestretry/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-requestretry/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-requestretry/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-requestretry/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-requestretry/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-requestretry/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-requestretry/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-requestretry/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-requestretry/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-requestretry/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-requestretry/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-requestretry/build/coverage.html/index.html)
 
@@ -108,7 +108,8 @@
         "test-watch": "mocha -t 100000 -R min -w $(find test -name '*.test.js')",
         "update": "updtr"
     },
-    "version": "1.12.0"
+    "version": "1.12.0",
+    "bin": {}
 }
 ```
 
